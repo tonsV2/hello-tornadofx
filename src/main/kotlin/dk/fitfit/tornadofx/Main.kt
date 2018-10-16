@@ -1,6 +1,6 @@
 package dk.fitfit.tornadofx
 
-import javafx.scene.text.FontWeight
+import javafx.scene.text.FontWeight.BOLD
 import tornadofx.*
 
 class HelloWorld : View() {
@@ -15,7 +15,7 @@ class Styles : Stylesheet() {
     init {
         label {
             fontSize = 40.px
-            fontWeight = FontWeight.BOLD
+            fontWeight = BOLD
             backgroundColor += c("#cecece")
         }
     }
